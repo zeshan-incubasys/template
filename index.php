@@ -2,6 +2,6 @@
 
   <div class="container">
 
-      <img src="<?=BASE_URL?>images/Image.jpg" alt="image"/>
+      <img src="<?=IMAGE_URL?>Image.jpg" alt="image"/>
   </div>
   <?php include('include/footer.php');?>
