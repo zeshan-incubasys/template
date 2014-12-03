@@ -12,3 +12,12 @@
 @media (min-width: 1200px) { 
  
  }
+ /* common custom form elements styles */
+::selection,li::selection,div::selection {
+	background: #6193a5; /* WebKit/Blink Browsers */
+	color: #fff;
+}
+::-moz-selection,li::-moz-selection,div::-moz-selection, {
+	background: #6193a5; /* Gecko Browsers */
+	color: #fff;
+}
